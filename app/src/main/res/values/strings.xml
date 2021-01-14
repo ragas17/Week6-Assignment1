@@ -2,8 +2,21 @@
     <string name="app_name">SoftUser-Clone</string>
     <string name="title">Softwarica</string>
     <string name="login">Login</string>
+
     <string name="title_activity_main">MainActivity</string>
     <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_dashboard">Register</string>
+    <string name="title_notifications">About us</string>
+
+    <string name="name">Full Name</string>
+    <string name="age">Age</string>
+    <string name="address">Address</string>
+    <string name="gender">Gender</string>
+
+    <string name="choose_avatar">Choose Avatar</string>
+    <string name="choose_gender">Gender</string>
+    <string name="option_male">Male</string>
+    <string name="option_female">Female</string>
+    <string name="option_others">Others</string>
+    <string name="register">Register</string>
 </resources>

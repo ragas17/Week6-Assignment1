@@ -1,13 +1,13 @@
-package com.sagar.softuser_clone.ui.dashboard
+package com.sagar.softuser_clone.ui.register
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class DashboardViewModel : ViewModel() {
+class RegisterViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is dashboard Fragment"
+        value = "This is register Fragment"
     }
     val text: LiveData<String> = _text
 }

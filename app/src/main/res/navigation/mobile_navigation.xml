@@ -13,13 +13,13 @@
 
     <fragment
         android:id="@+id/navigation_dashboard"
-        android:name="com.sagar.softuser_clone.ui.dashboard.DashboardFragment"
+        android:name="com.sagar.softuser_clone.ui.register.RegisterFragment"
         android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        tools:layout="@layout/fragment_register" />
 
     <fragment
         android:id="@+id/navigation_notifications"
-        android:name="com.sagar.softuser_clone.ui.notifications.NotificationsFragment"
+        android:name="com.sagar.softuser_clone.ui.about.AboutFragment"
         android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        tools:layout="@layout/fragment_about" />
 </navigation>
