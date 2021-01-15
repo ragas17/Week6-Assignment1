@@ -13,10 +13,12 @@
     <string name="address">Address</string>
     <string name="gender">Gender</string>
 
+    <string name="register_title">Student \n Registration</string>
     <string name="choose_avatar">Choose Avatar</string>
     <string name="choose_gender">Gender</string>
     <string name="option_male">Male</string>
     <string name="option_female">Female</string>
     <string name="option_others">Others</string>
+    <string name="profile">Student Image</string>
     <string name="register">Register</string>
 </resources>

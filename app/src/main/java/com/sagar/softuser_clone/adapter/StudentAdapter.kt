@@ -5,6 +5,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
+import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.sagar.softuser_clone.R
@@ -39,7 +40,11 @@ class StudentAdapter(private val studentList: MutableList<Student>?,
         holder.address.text = student?.address
         holder.gender.text = student?.gender
 
-        Glide.with(selectedContext).load(student?.profilePicture).into(holder.profile)
+        Glide.with(selectedContext).load(student?.profilePicture.toString()).into(holder.profile)
+
+        holder.profile.setOnClickListener(){
+            Toast.makeText(it.context, "Hello from ${student?.name}", Toast.LENGTH_LONG).show()
+        }
 
         holder.delete.setOnClickListener(){
             val studentAtIndex = studentList?.indexOf(student)!!
