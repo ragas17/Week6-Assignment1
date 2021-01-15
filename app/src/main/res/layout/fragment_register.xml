@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/amsterdam"
         android:text="@string/register_title"
-        android:textSize="25dp"
+        android:textSize="15dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
